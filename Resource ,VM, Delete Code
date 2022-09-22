@@ -1,4 +1,4 @@
 Command to create resource group on cli (az group create --name myResourceGroup --location eastus)
 Command to create VM On azure cli- (az vm create --resource-group myResourceGroup --name myVM --image Win2022AzureEditionCore --public-ip-sku Standard --admin-username azureuser)
 Command to delete VM (az vm delete --resource-group myResourceGroup --name myVM)
-Command to delete resource group(az vm delete --resource-group myResourceGroup --name myVM)
+Command to delete resource group(az group delete -n myResourceGroup)
