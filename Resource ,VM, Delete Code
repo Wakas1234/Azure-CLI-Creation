@@ -2,3 +2,5 @@ Command to create resource group on cli (az group create --name myResourceGroup 
 Command to create VM On azure cli- (az vm create --resource-group myResourceGroup --name myVM --image Win2022AzureEditionCore --public-ip-sku Standard --admin-username azureuser)
 Command to delete VM (az vm delete --resource-group myResourceGroup --name myVM)
 Command to delete resource group(az group delete -n myResourceGroup)
+Command to create Vnet (az network vnet create --name WakasVNet1 --resource-group myResourceGroup --address-prefixes 10.0.0.0/16 --subnet-name WakasSubnet1 --subnet-prefixes 10.0.0.0/24)
+ Command to Create Public Ip  (az network public-ip create --resource-group myResourceGroup --name MyIp)
